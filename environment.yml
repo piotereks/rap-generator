@@ -1,0 +1,17 @@
+name: rap-generator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12  # switched to 3.12 because conda-forge provides fasttext for 3.12
+  - pip
+  - jupyter
+  - ipykernel
+  - gensim
+  - faiss-cpu
+ # - fasttext  # install from conda-forge when available
+  - pip:
+    - kagglehub
+    # If conda `fasttext` is unavailable for your platform, uncomment
+    # the next line to force a pip build (requires MSVC/CMake on Windows):
+    # - --no-binary :all: fasttext

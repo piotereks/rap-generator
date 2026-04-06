@@ -1,0 +1,10 @@
+jupyter
+ipykernel
+kagglehub
+fasttext 
+faiss-cpu 
+gensim
+setuptools
+wheel 
+cmake 
+pybind11
