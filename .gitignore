@@ -33,8 +33,7 @@ MANIFEST
 *.spec
 
 # Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+pip-log.txtgit
 
 # Unit test / coverage reports
 htmlcov/
@@ -216,3 +215,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 datasets/
+
