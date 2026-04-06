@@ -1,10 +1,7 @@
 jupyter
 ipykernel
 kagglehub
-fasttext 
+fasttext-wheel
 faiss-cpu 
 gensim
-setuptools
-wheel 
-cmake 
-pybind11
+
