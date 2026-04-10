@@ -9,6 +9,7 @@ dependencies:
   - ipykernel
   - gensim
   - faiss-cpu
+  - scikit-learn
  # - fasttext  # install from conda-forge when available
   - pip:
     - kagglehub
